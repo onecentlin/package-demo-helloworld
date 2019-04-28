@@ -1,0 +1,22 @@
+{
+    "name": "onecentlin/package-demo",
+    "description": "Demo",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Winnie Lin",
+            "email": "onecentlin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Onecentlin\\PackageDemo\\": "src/"
+        }
+    }
+}
